@@ -1,0 +1,12 @@
+
+该程序为cGANS（conditional GANs）基于Tensorflow的程序，可以保证所有代码全部为自己编写！
+
+其中cifar10文件夹为cifar10数据集；
+ckpt文件夹为tf中Saver类保存的模型；
+Datas文件夹为mnist数据集；
+Samples为相应cGANs中Generator生成的Sample样本（其中mnist-cgan-classifier文件夹对应程序cgan-classifier.py的结果；mnist-cgan-conv对应程序cgan-conv.py的结果；mnist-cgan-mlp对应程序cgan-mlp.py的结果）；
+
+cgan-classifier.py则是复现了论文triple GANs的程序，也即是在原始的的GANs中，除了generator和discriminator又新增了一个classifier判别器，其网络结构类似于discriminator，作用可以大致概括为促使generator生成的sample更接近真实样本！
+
+cgan-conv.py和cgan-mlp.py都是原始的conditional-GANs，前者表示generator和discriminator使用了简单的CNN，而后者表示使用了简单的MLP。
+
