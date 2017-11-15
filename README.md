@@ -1,5 +1,5 @@
 
-该程序为cGANS（conditional GANs）基于Tensorflow的程序，可以保证所有代码全部为自己编写！
+该程序为cGANS（conditional GANs）基于Tensorflow的程序！
 
 其中cifar10文件夹为cifar10数据集；
 ckpt文件夹为tf中Saver类保存的模型；
